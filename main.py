@@ -1,3 +1,13 @@
-from zad1 import vivod
+import singleton
+import bridge
+import visitor
 
-print(vivod.static)
+
+def main():
+    singleton.main()
+    bridge.main()
+    visitor.main()
+
+
+if __name__ == "__main__":
+    main()
